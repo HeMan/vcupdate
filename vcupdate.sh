@@ -7,7 +7,10 @@ if [ -d CVS/ ]; then
 elif [ -d .git/ ]; then
 	git pull
 elif [ -d .bzr/ ]; then
-	bzr upgrade
+	bzr pull
+elif [ -d .hg/ ]; then
+	hg pull
+	hg update
 elif [ -d .svn/ ]; then
 	svn update
 fi
