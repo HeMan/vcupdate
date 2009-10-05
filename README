@@ -1,0 +1,9 @@
+This script came to life after trying to update some source code and
+I first tried 'git pull' then 'svn udate' to finally realize that it was a CVS
+repository.
+
+It's not supposed to be a tool to unify the VC tools, just to ease the
+download of seldom used source code.
+
+The usage is simple, just run 'vcupdate' and it figures out what VC that is
+used in you working directory.
